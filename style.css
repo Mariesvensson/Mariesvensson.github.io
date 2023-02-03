@@ -17,6 +17,22 @@ header,main,footer {
     
 }
 
+@media (max-width: 1000px) {
+
+    header {
+
+        display: grid;
+        grid-template: 
+        "a"
+       
+        ;
+
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
 body{
 
     background-image: url(p.jpg);
@@ -75,6 +91,8 @@ main{
     "a b"
     "c d" 
     ;
+
+   
 }
 
 @media (max-width: 1000px) {
@@ -88,6 +106,9 @@ main{
         "c"
         "d"
         ;
+
+        margin-left: 0;
+        margin-right: 0;
     }
     
 }
@@ -228,6 +249,9 @@ footer {
     "a"
          
     ;
+
+    margin-left: 0;
+    margin-right: 0;
 
 }
 }
